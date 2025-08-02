@@ -56,11 +56,11 @@ Write in a bold, irreverent tone with short, declarative sentences. Avoid emojis
 
 ## 🛠 Tech Stack
 
-| Layer        | Tool       |
-|--------------|------------|
+| Layer        | Tool                           |
+|--------------|----------------------------------|
 | LLM          | GPT-4 (ChatGPT, Claude optional) |
-| Interface    | Replit, Notion form, or n8n (optional) |
-| Output       | Markdown / JSON / text |
+| Interface    | Replit, Notion form, or n8n     |
+| Output       | Markdown / JSON / text          |
 | Hosting      | Local or cloud-based (optional) |
 
 ---
@@ -82,8 +82,22 @@ Analyze the following writing sample and return a structured summary with:
 
 ---
 
+## 🔍 Brand Voice in Action: Notion, Duolingo, and Zapier
+
+This demo analyzes Notion’s public content to showcase how Brand Voice Snapshot identifies tone traits like structure, emotional warmth, and clarity — helping teams train AI tools or QA brand-aligned content across multiple touchpoints.
+
+| Brand     | Tone Type | Key Traits Identified by Snapshot |
+|-----------|-----------|-----------------------------------|
+| Duolingo  | Loud      | Playful, bold, meme-driven        |
+| Notion    | Mid       | Structured, warm, precise         |
+| Zapier    | Quiet     | Neutral, frictionless, utilitarian|
+
+> "AI agents can’t afford to ‘flatten’ brand voice. Snapshot ensures even subtle tonal strategies are recognized and respected — whether your brand shouts, whispers, or explains."
+
+---
+
 ## 🏗 Status: MVP v1  
-This is the first iteration of **Vibe Agent 02** in the [Micro Vibe Projects Series](https://github.com/RosTalbot).  
+This is the first iteration of **Vibe Agent 02** in the [Micro Vibe Projects Series](https://github.com/RosTalbot).
 
 Planned improvements:
 - Custom input form (Notion or Replit)
