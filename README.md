@@ -1,24 +1,27 @@
-# 🧠 Vibe Agent 02: Brand Voice Snapshot
+# 🧠 Brand Voice Snapshot
 
-**Brand Voice Snapshot** is a lightweight, AI-powered tone analysis tool that helps founders and marketers quickly understand the unique writing style behind their brand. By pasting in a short content sample, users receive an instant summary of tone, sentence structure, formatting patterns, and “vibe tags” to guide brand consistency or train GPTs.
+**Brand Voice Snapshot** is a lightweight, GPT-powered tool that helps founders and marketers quickly understand the unique writing style behind their brand. By pasting in a short content sample, users receive an instant analysis of tone, sentence structure, formatting patterns, and “vibe tags” — perfect for brand audits, content QA, or training GPTs.
 
-> 🛠️ Built for async teams, creative ops, and solo creators who want fast brand clarity—without hiring a strategist.
+> Built for async teams, creative ops, and solo creators who want fast brand clarity — without hiring a strategist.
+
+🔗 Try it on ChatGPT: [Brand Voice Snapshot GPT](https://chatgpt.com/g/g-688d86dd33f48191b9f1ac2beb93c8c9-brand-voice-snapshot?model=gpt-4o)
 
 ---
 
 ## 🚀 How It Works
 
-**Input:**  
+### 📝 Input:
 A short writing sample (e.g., website copy, email, social post)
 
-**Output:**  
-A Markdown-style breakdown of:
-- 🌟 Tone Descriptors (e.g. confident, friendly, irreverent)
-- ✍️ Sentence Style (short, punchy, or complex)
-- 🎨 Formatting Patterns (emojis, lists, line breaks, etc.)
-- 🔖 Vibe Tags (quirky, polished, rebellious, etc.)
-- 💡 Emotional Impact (how the tone *feels*)
-- 🧹 Bonus: GPT-ready prompt snippet to replicate the voice
+### 📊 Output:
+A structured breakdown of:
+
+- 🌟 **Tone Descriptors** (e.g. confident, friendly, irreverent)  
+- ✍️ **Sentence Style** (short, punchy, or complex)  
+- 🎨 **Formatting Patterns** (emojis, lists, line breaks, etc.)  
+- 🔖 **Vibe Tags** (quirky, polished, rebellious, etc.)  
+- 💡 **Emotional Impact** (how it feels to a reader)  
+- 🧹 **Bonus:** A GPT-ready prompt to replicate the voice
 
 ---
 
@@ -56,12 +59,12 @@ Write in a bold, irreverent tone with short, declarative sentences. Avoid emojis
 
 ## 🛠 Tech Stack
 
-| Layer        | Tool                           |
+| Layer        | Tool                             |
 |--------------|----------------------------------|
-| LLM          | GPT-4 (ChatGPT, Claude optional) |
-| Interface    | Replit, Notion form, or n8n     |
-| Output       | Markdown / JSON / text          |
-| Hosting      | Local or cloud-based (optional) |
+| **LLM**      | GPT-4 (ChatGPT), Claude optional |
+| **Interface**| ChatGPT GPT + (optionally Replit / Notion / n8n) |
+| **Output**   | Markdown / JSON / Text           |
+| **Hosting**  | ChatGPT-native or Local/Cloud    |
 
 ---
 
@@ -82,32 +85,48 @@ Analyze the following writing sample and return a structured summary with:
 
 ---
 
-## 🔍 Brand Voice in Action: Notion, Duolingo, and Zapier
+---
 
-This demo analyzes Notion’s public content to showcase how Brand Voice Snapshot identifies tone traits like structure, emotional warmth, and clarity — helping teams train AI tools or QA brand-aligned content across multiple touchpoints.
+## 🔍 Brand Voice in Action
 
-| Brand     | Tone Type | Key Traits Identified by Snapshot |
-|-----------|-----------|-----------------------------------|
-| Duolingo  | Loud      | Playful, bold, meme-driven        |
-| Notion    | Mid       | Structured, warm, precise         |
-| Zapier    | Quiet     | Neutral, frictionless, utilitarian|
+This demo showcases how Brand Voice Snapshot analyzes public-facing content from recognizable brands:
 
-> "AI agents can’t afford to ‘flatten’ brand voice. Snapshot ensures even subtle tonal strategies are recognized and respected — whether your brand shouts, whispers, or explains."
+| Brand     | Tone Type | Key Traits Identified by Snapshot                     |
+|-----------|-----------|--------------------------------------------------------|
+| Duolingo  | Loud      | Playful, bold, meme-driven                            |
+| Notion    | Mid       | Structured, warm, precise                             |
+| Zapier    | Quiet     | Neutral, frictionless, utilitarian                    |
+
+> “AI agents can’t afford to flatten brand voice. Snapshot ensures even subtle tonal strategies are recognized and respected — whether your brand shouts, whispers, or explains.”
 
 ---
 
-## 🏗 Status: MVP v1  
-This is the first iteration of **Vibe Agent 02** in the [Micro Vibe Projects Series](https://github.com/RosTalbot).
+## 🏗 Status: MVP v1
 
-Planned improvements:
-- Custom input form (Notion or Replit)
-- Export to Markdown
-- Voice training toggle (fine-tune-ready JSON format)
+This is the first iteration of the tool.
+
+### Planned Improvements:
+
+- [ ] Custom input form (Notion or Replit UI)  
+- [ ] Markdown export button  
+- [ ] Voice training toggle (fine-tune-ready JSON format)
+
+---
+
+## 📸 Suggested Assets
+
+<!-- You can upload and embed these screenshots into the README or repo sidebar -->
+
+- [ ] Screenshot of the GPT running with an input/output example  
+- [ ] Example Markdown output  
+- [ ] Brand comparison table as image  
+- [ ] Optional: Loom walkthrough or GIF  
 
 ---
 
-## 👤 Creator  
-Built by [Ros Talbot](https://github.com/RosTalbot)  
-Part of the AI Agent Bootcamp, 2025
+## 👤 Creator
 
----
+Built by **Ros Talbot**  
+Part of the **AI Agent Bootcamp, 2025**
+
+> _Originally developed as “Vibe Agent 02” in the Micro Vibe Projects series._
