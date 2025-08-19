@@ -1,45 +1,46 @@
-# 🧠 Brand Voice Snapshot
+# 🧠 Brand Voice Snapshot (GPT)
 
-**Brand Voice Snapshot** is a lightweight, GPT-powered tool that helps founders and marketers quickly understand the unique writing style behind their brand. By pasting in a short content sample, users receive an instant analysis of tone, sentence structure, formatting patterns, and “vibe tags” — perfect for brand audits, content QA, or training GPTs.
+Brand Voice Snapshot is a custom GPT that instantly analyzes the tone and style of your brand's writing — helping founders, marketers, and AI trainers create consistent, aligned messaging at scale.
 
-> Built for async teams, creative ops, and solo creators who want fast brand clarity — without hiring a strategist.
+Just paste 3–5 sample blurbs, and it generates a structured summary of:
 
-🔗 Try it on ChatGPT: [Brand Voice Snapshot GPT](https://chatgpt.com/g/g-688d86dd33f48191b9f1ac2beb93c8c9-brand-voice-snapshot?model=gpt-4o)
+- 🌟 Tone Descriptors (e.g. confident, rebellious, warm)
+- ✍️ Sentence Style (e.g. short, punchy, lyrical)
+- 🎨 Formatting Patterns (e.g. emojis, lists, line breaks)
+- 🔖 Vibe Tags (e.g. quirky, polished, anti-corporate)
+- 💡 Emotional Impact (how the tone feels to readers)
+- 🧹 Bonus: a GPT-ready prompt snippet to replicate the brand voice
 
 ---
 
 ## 🚀 How It Works
 
-### 📝 Input:
-A short writing sample (e.g., website copy, email, social post)
-
-### 📊 Output:
-A structured breakdown of:
-
-- 🌟 **Tone Descriptors** (e.g. confident, friendly, irreverent)  
-- ✍️ **Sentence Style** (short, punchy, or complex)  
-- 🎨 **Formatting Patterns** (emojis, lists, line breaks, etc.)  
-- 🔖 **Vibe Tags** (quirky, polished, rebellious, etc.)  
-- 💡 **Emotional Impact** (how it feels to a reader)  
-- 🧹 **Bonus:** A GPT-ready prompt to replicate the voice
+**Step 1:** Open the GPT → [Brand Voice Snapshot](https://chatgpt.com/g/g-688d86dd33f48191b9f1ac2beb93c8c9-brand-voice-snapshot?model=gpt-4o)  
+**Step 2:** Paste in 3–5 writing samples from your brand  
+**Step 3:** Get a structured tone report + voice mimic prompt  
+**Optional:** Ask for platform-specific variations (e.g. for social media vs website copy)
 
 ---
 
-## 📥 Example Input 1
+## 📥 Sample Input
+
+---
+
+## Example 1
 
 ```
 We believe creative freedom isn’t optional—it’s the whole point.
 Our tools are here to simplify, clarify, and get the hell out of your way.
 ```
 
-## 📥 Example Input 2
+## Example 2
 
 ```
 Creativity shouldn’t come with a manual or a muzzle.
 We build tools that cut the fluff, kill the chaos, and get you back to making cool shit that matters.
 ```
 
-## 📥 Example Input 3
+## Example 3
 
 ```
 We don’t do fluff, funnels, or 47-step frameworks.
@@ -47,7 +48,7 @@ We build tools for people who’d rather do the damn thing than overthink it.
 Less performative. More powerful.
 ```
 
-## 📥 Example Input 4
+## Example 4
 
 ```
 Your ideas deserve clarity, not corporate jargon.
@@ -56,17 +57,35 @@ If our tools can’t make things simpler, they’re not worth building.
 
 ---
 
-## 📤 Example Output
+## 📤 Sample Output
 
-```markdown
-**Tone:** Bold, direct, empowering  
-**Sentence Style:** Short, punchy  
-**Formatting Patterns:** Em dash, emphatic punctuation, no emojis  
-**Vibe Tags:** rebellious, modern, no-nonsense  
-**Audience Feeling:** Energized, unfiltered, motivated  
-**Prompt to Replicate This Style:**  
-Write in a bold, irreverent tone with short, declarative sentences. Avoid emojis. Emphasize personal freedom and cut through fluff.
-```
+![Screenshot: Brand Voice Profile](./screenshots/brand-voice-output.png)
+
+**Tone Descriptors:**  
+- Direct  
+- Empowering  
+- Rebellious
+
+**Sentence Structure:**  
+Short to medium — snappy and punchy, with a preference for brevity that lands impact.
+
+**Formatting Patterns:**  
+- Parallel structures (“cut the fluff, kill the chaos”)  
+- Em dashes for emphasis  
+- Line breaks for clarity  
+- Bold phrasing and colloquialisms (“do the damn thing”)
+
+**Vibe Tags:**  
+- Bold  
+- No-nonsense  
+- Anti-corporate  
+- Creative renegade
+
+**Emotional Impact:**  
+> Like a confident friend who hands you the tools, skips the small talk, and says, “Go make something badass.”
+
+**Voice Mimic Prompt:**  
+Write in a bold, no-fluff tone that empowers creators. Use short, punchy sentences. Avoid jargon, padding, or overexplaining. Speak directly and casually, like a creative peer who’s tired of corporate nonsense and wants to get back to what matters: making great work. Think clarity over complexity, rebellion over rigidity.
 
 ---
 
@@ -107,9 +126,25 @@ Analyze the following writing sample and return a structured summary with:
 
 ---
 
+## 🧪 Use Cases
+- ✍️ Founders documenting brand voice for the first time  
+- 🤖 AI trainers building tone-aligned GPTs or Claude bots  
+- 🧑‍🎨 Creative teams auditing voice for marketing materials  
+- 📢 Marketers improving consistency across platforms  
+
 ---
 
-## 🔍 Brand Voice in Action
+## 📸 Screenshots
+
+- **Intro Prompt** → User asks: _"I need you to study this brand voice"_  
+  → GPT asks for up to 5 samples (Screenshot: `brand-voice-input.png`)
+
+- **Final Output** → Brand Voice Analysis (Screenshot: `brand-voice-output.png`)
+
+---
+
+
+<!---## 🔍 Brand Voice in Action
 
 This demo showcases how Brand Voice Snapshot analyzes public-facing content from recognizable brands:
 
@@ -120,29 +155,18 @@ This demo showcases how Brand Voice Snapshot analyzes public-facing content from
 | Zapier    | Quiet     | Neutral, frictionless, utilitarian                    |
 
 > “AI agents can’t afford to flatten brand voice. Snapshot ensures even subtle tonal strategies are recognized and respected — whether your brand shouts, whispers, or explains.”
+--->
 
----
 
 ## 🏗 Status: MVP v1
 
 This is the first iteration of the tool.
 
-### Planned Improvements:
+### Planned Enhancements:
 
-- [ ] Custom input form (Notion or Replit UI)  
-- [ ] Markdown export button  
-- [ ] Voice training toggle (fine-tune-ready JSON format)
-
----
-
-## 📸 Suggested Assets
-
-<!-- You can upload and embed these screenshots into the README or repo sidebar -->
-
-- [ ] Screenshot of the GPT running with an input/output example  
-- [ ] Example Markdown output  
-- [ ] Brand comparison table as image  
-- [ ] Optional: Loom walkthrough or GIF  
+- Add web form input (Notion, Replit, or site embed)
+- Markdown and JSON export
+- Training-ready voice profile format
 
 ---
 
