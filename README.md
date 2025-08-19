@@ -25,11 +25,18 @@ A structured breakdown of:
 
 ---
 
-## 📥 Example Input
+## 📥 Example Input 1
 
 ```
 We believe creative freedom isn’t optional—it’s the whole point.
 Our tools are here to simplify, clarify, and get the hell out of your way.
+```
+
+## 📥 Example Input 2
+
+```
+Creativity shouldn’t come with a manual or a muzzle.
+We build tools that cut the fluff, kill the chaos, and get you back to making cool shit that matters.
 ```
 
 ---
