@@ -39,6 +39,21 @@ Creativity shouldn’t come with a manual or a muzzle.
 We build tools that cut the fluff, kill the chaos, and get you back to making cool shit that matters.
 ```
 
+## 📥 Example Input 3
+
+```
+We don’t do fluff, funnels, or 47-step frameworks.
+We build tools for people who’d rather do the damn thing than overthink it.
+Less performative. More powerful.
+```
+
+## 📥 Example Input 4
+
+```
+Your ideas deserve clarity, not corporate jargon.
+If our tools can’t make things simpler, they’re not worth building.
+```
+
 ---
 
 ## 📤 Example Output
